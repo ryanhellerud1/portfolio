@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { useInView } from 'react-intersection-observer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faHtml5, faCss3, faNodeJs, faGit, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJs, faHtml5, faCss3, faNodeJs, faGit, faPython, faVuejs } from '@fortawesome/free-brands-svg-icons';
 import { faShield, faBrain } from '@fortawesome/free-solid-svg-icons';
 
 const SkillsContainer = styled.div`
@@ -63,7 +63,7 @@ const SkillDescription = styled.p`
 
 const skills = [
   { name: 'React', icon: faReact, description: 'Building interactive UIs' },
-  { name: 'Vue', icon: faVuejs, description: 'Building interactive UIs' },
+  { name: 'Vue.js', icon: faVuejs, description: 'Progressive JavaScript framework' },
   { name: 'JavaScript', icon: faJs, description: 'Dynamic web applications' },
   { name: 'HTML5', icon: faHtml5, description: 'Structuring web content' },
   { name: 'CSS3', icon: faCss3, description: 'Styling and animations' },
