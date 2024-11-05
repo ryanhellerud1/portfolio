@@ -63,6 +63,7 @@ const SkillDescription = styled.p`
 
 const skills = [
   { name: 'React', icon: faReact, description: 'Building interactive UIs' },
+  { name: 'Vue', icon: faVuejs, description: 'Building interactive UIs' },
   { name: 'JavaScript', icon: faJs, description: 'Dynamic web applications' },
   { name: 'HTML5', icon: faHtml5, description: 'Structuring web content' },
   { name: 'CSS3', icon: faCss3, description: 'Styling and animations' },
